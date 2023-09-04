@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(68, 67, 67);
+    margin: 0px;
+}
+h1{
+    color: rgb(235, 132, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin:5px 0px 15px 10px;
+}
+p{
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    margin: 0 10px;
+}
