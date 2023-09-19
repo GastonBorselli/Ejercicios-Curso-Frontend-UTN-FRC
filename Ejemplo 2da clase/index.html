@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Ejemplo 2da clase/estilo.css">
+    <title>Clase 2</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi Página Web</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#contactame">Contactame</a></li>
+            </ul>
+    </header>
+    <section id="acerca-de-mi">
+        <h2>Acerca de mí</h2>
+        <p>Mi nombre es Gastón Borselli, soy estudiante de ingeniería en sistemas de información en UTN Facultad Regional San Francisco. Actualmente me encuentro realizando el proyecto final de la carrera.</p>
+        <div class="foto-perfil">
+            <img src="/Ejemplo 2da clase/fotoPerfil.jpg" alt="foto de perfil">
+        </div>        
+    </section>
+    <section id="educacion">
+        <h2>Educación</h2>
+        <ul class="listado-educacion">
+            <li>Universidad Tecnológica Nacional Faculta Regional San Francisco, Ingeniería en Sistemas de Información</li>
+            <li>Cursos online para desarrollo frontend con react js</li>
+        </ul>
+    </section>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="listado-habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>           
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <address> 
+            <ul class="contacto">
+                <li>Email: <a href="mailto:gastonborselli97@gmail.com">gastonborselli97@gmail.com</a></li>
+                <li>Teléfono: <a href="tel:+543562456686">3562456686</a></li>
+            </ul>       
+        </address>
+    </section>
+    <section id="contactame">
+        <h2>Contactame</h2>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            <input class="enviar-mensaje" type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>Copyright 2023</footer>
+</body>
+</html>
